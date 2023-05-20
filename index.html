@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <p>TimeZone API</p>
+      <p>Your Current Time Zone</p>
+      <div class="current-location-container" id="current-location-details">
+        <p>Name Of Time Zone :</p>
+        <div class="lat-long-container">
+          <p>Lat:</p>
+          <p>Long:</p>
+        </div>
+        <p>Offset STD:</p>
+        <p>Offset STD Seconds :</p>
+        <p>Offset DST :</p>
+        <p>Offset DST Seconds:</p>
+        <p>Country:</p>
+        <p>Postcode:</p>
+        <p>City:</p>
+      </div>
+      <p>Enter Address</p>
+      <form id="search-address">
+        <input type="text" placeholder="Enter Your Address" name="address" />
+        <button type="submit">Submit</button>
+      </form>
+      <div class="search-location-container" id="search-location-details"></div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
